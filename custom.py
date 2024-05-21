@@ -10,7 +10,7 @@ response = requests.get(url)
 code = response.status_code
 
 response_data = {
-    'telegram': '@rowdyboyx',
+    'telegram': '@TeamNoob_Official',
     'status': {
         'code': code,
         'api_resp': response.json()
