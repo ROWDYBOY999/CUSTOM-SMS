@@ -3,7 +3,7 @@
 
 
 
-
+# RUN
 
 RUN IN TERMUX:-
 
@@ -11,6 +11,8 @@ RUN IN TERMUX:-
 
 simple command run in termux:-
 
+
+# command
 
 pkg update -y
 
@@ -34,7 +36,7 @@ ls
 
 python custom.py
 
-
+# contact me
 
 MY FACEBOOK ID:- https://www.facebook.com/skrobiul.robiul.1614
 
