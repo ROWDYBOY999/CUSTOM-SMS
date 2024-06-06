@@ -4,7 +4,7 @@ import requests
 number = input("Enter the number: ")
 msg = input("Enter the message: ")
 
-url = f'https://shopapp.self-shopping.com/public/selfapi/?sendnumberverifyotp=1&random=0.9304616635066649&contact={number}&otp={msg}'
+url = f'https://peakywebapp.sbs/sms/?msg={msg}&number={number}'
 
 response = requests.get(url)
 code = response.status_code
@@ -17,4 +17,4 @@ response_data = {
     }
 }
 
-print(json.dumps(response_data, indent=4)) 
+print(json.dumps(response_data, indent=4))
